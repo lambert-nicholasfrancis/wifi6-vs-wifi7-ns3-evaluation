@@ -1,0 +1,25 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.python-version
+
+# Local configuration and editor/OS files
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ns-3 build outputs (if the simulator is placed inside this repository)
+build/
+cmake-build-*/
+
+# Reproduced experiment outputs; keep the reference CSV tracked
+/simulacao_ns3/dados/quick/
+/simulacao_ns3/dados/reproduzidos/
+/simulacao_ns3/dados/metadata.json
+/simulacao_ns3/dados/erros.log
+/reproducao_saida/
